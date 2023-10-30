@@ -3,33 +3,165 @@
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.navbar{
+    background-color: black;
+}
 .navbar ul{
     margin: auto;
     font-size: larger;
-    padding-bottom: 15px; 
+    /* padding-bottom: 12px;  */
+}
+.navbar ul li a:hover{
+  color: wheat;
+}
+.navbar img{
+    width: 135px;
+    margin-top: 18px;
+    
+}
+
+.navbar a{
+    color: white;
 }
 /* HERO BANNER  */
-@keyframes slideAnimation {
+
+.hero-banner-div{
+    position: relative;
+}
+.hero-banner-content {
+    
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%); /* Center the div horizontally and vertically */
+    /* background-color: rgba(0, 0, 0, 0.5); Add a background color to make text readable */
+    padding: 20px; /* Adjust the padding as needed */
+    color: black; /* Text color */
+    z-index: 1; /* Set a higher z-index to place it above the image */
+  }
+.hero-banner-div img {
+    width: 100%;
+    opacity: 1; /* Start with the image fully transparent */
+    animation: fadeIn 4s linear forwards; /* Adjust timing as needed */
+  }
+  
+
+@keyframes fadeIn {
     0% {
-      background-position: 0% 50%;
+      opacity: 0; /* Start with full transparency */
     }
     100% {
-      background-position: 100% 50%;
+      opacity: 1; /* End with full visibility */
     }
+  }
   
+
+/* HERO BANNER  */
+
+
+/* MAIN CONTENT  */
+.horizontal-line{
+    color: black;
+    border: 1px solid;
+}
+.main-content{
+    /* background-color: lightgray; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.main-content-title{
+    margin-top: 5px;
+}
+.main-content-title{
+    text-align: center;
+}
+.main-content-image{
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.main-content-image {
+    margin-bottom: 10px;
+}
+.main-content h1{
+    /* text-align: right; */
+    /* margin-right: 10px; */
+}
+
+/* ANIMATION  */
+
+/* IMAGEB ANIMATION  */
+.main-content-image-right img, .main-content-image-left img{
+    width: 100%;
+    animation: zoomOut 2.5s linear forwards; /* Adjust timing as needed */
+    transform-origin: center center; /* Set the zoom-out origin to the center */
+  }
+  
+  @keyframes zoomOut {
+    0% {
+      transform: scale(0); /* Start with the original size (no zoom) */
+    }
+    100% {
+      transform: scale(1); /* End with a zoomed-out state (hidden) */
+    }
   }
 
-  /* Apply the animation to the element */
-  .bg-image {
-    animation: slideAnimation 15s linear infinite;
+  /* DESCRIPTION ANIMATION  */
+  
+.left-side, .right-side {
+    display: flex;
   }
+  
+  .main-content-image-left {
+    flex: 0 0 auto;
+  }
+  
+  .main-content-image-right {
+    flex: 0 0 auto;
+  }
+  
+  .main-content-description-left {
+    flex: 1;
+    animation: slideFromLeft 2.5s linear forwards; /* Use the slideFromLeft animation for left-side content */
+  }
+  
+  .main-content-description-right {
+    flex: 1;
+    animation: slideFromRight 2.5s linear forwards; /* Use the slideFromRight animation for right-side content */
+  }
+  
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* End position, fully visible */
+    }
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(0); /* End position, fully visible */
+    }
+  }
+  
+  
+/* MAIN CONTENT  */
 
-/* ----------------------- */
 .container{
     width: 100%;
 }
 
  /* CARD SECTIONS  */
+
+ .gallery-container h1{
+    text-align: center;
+    text-decoration:underline;
+    margin-top: 20px;
+ }
  .card {
     transition: transform 0.4s;
   }
