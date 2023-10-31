@@ -11,8 +11,8 @@ body{
     font-size: larger;
     /* padding-bottom: 12px;  */
 }
-.navbar ul li a:hover{
-  color: wheat;
+.navbar  a:hover{
+  color: rgb(251, 222, 168);
 }
 .navbar img{
     width: 135px;
@@ -21,8 +21,13 @@ body{
 }
 
 .navbar a{
-    color: white;
+    color: rgb(243, 42, 42);
+    text-decoration: none;
 }
+.navbar .contact-us-btn{
+  color: blue;
+}
+
 /* HERO BANNER  */
 
 .hero-banner-div{
