@@ -15,7 +15,7 @@ body{
   color: rgb(251, 222, 168);
 }
 .navbar img{
-    width: 135px;
+    width: 180px;
     margin-top: 18px;
     
 }
@@ -32,35 +32,20 @@ body{
 
 .hero-banner-div{
     position: relative;
+    height: auto;
 }
 .hero-banner-content {
-    
-    position: absolute;
-    top: 50%; /* Adjust the vertical position */
-    left: 50%; /* Adjust the horizontal position */
-    transform: translate(-50%, -50%); /* Center the div horizontally and vertically */
-    /* background-color: rgba(0, 0, 0, 0.5); Add a background color to make text readable */
-    padding: 20px; /* Adjust the padding as needed */
-    color: black; /* Text color */
-    z-index: 1; /* Set a higher z-index to place it above the image */
+
+    padding: 20px; 
+    color: black; 
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
   }
 .hero-banner-div img {
     width: 100%;
-    opacity: 1; /* Start with the image fully transparent */
-    animation: fadeIn 4s linear forwards; /* Adjust timing as needed */
+    
   }
-  
-
-@keyframes fadeIn {
-    0% {
-      opacity: 0; /* Start with full transparency */
-    }
-    100% {
-      opacity: 1; /* End with full visibility */
-    }
-  }
-  
-
 /* HERO BANNER  */
 
 
@@ -96,20 +81,22 @@ body{
 /* ANIMATION  */
 
 /* IMAGEB ANIMATION  */
-.main-content-image-right img, .main-content-image-left img{
+/* .main-content-image  img{
     width: 100%;
-    animation: zoomOut 2.5s linear forwards; /* Adjust timing as needed */
-    transform-origin: center center; /* Set the zoom-out origin to the center */
+    animation: zoomOut 2.5s linear forwards; 
+    transform-origin: center center; 
   }
-  
-  @keyframes zoomOut {
-    0% {
-      transform: scale(0); /* Start with the original size (no zoom) */
-    }
-    100% {
-      transform: scale(1); /* End with a zoomed-out state (hidden) */
-    }
-  }
+   */
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 3s;
+   }
+.animate.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
   /* DESCRIPTION ANIMATION  */
   
@@ -117,43 +104,9 @@ body{
     display: flex;
   }
   
-  .main-content-image-left {
+  .main-content-image {
     flex: 0 0 auto;
   }
-  
-  .main-content-image-right {
-    flex: 0 0 auto;
-  }
-  
-  .main-content-description-left {
-    flex: 1;
-    animation: slideFromLeft 2.5s linear forwards; /* Use the slideFromLeft animation for left-side content */
-  }
-  
-  .main-content-description-right {
-    flex: 1;
-    animation: slideFromRight 2.5s linear forwards; /* Use the slideFromRight animation for right-side content */
-  }
-  
-  @keyframes slideFromLeft {
-    0% {
-      transform: translateX(-100%); /* Start off-screen to the left */
-    }
-    100% {
-      transform: translateX(0); /* End position, fully visible */
-    }
-  }
-  
-  @keyframes slideFromRight {
-    0% {
-      transform: translateX(100%); /* Start off-screen to the right */
-    }
-    100% {
-      transform: translateX(0); /* End position, fully visible */
-    }
-  }
-  
-  
 /* MAIN CONTENT  */
 
 .container{
@@ -275,10 +228,10 @@ section .section-title {
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
 }
-#footer ul.social li:hover a i {
+/* #footer ul.social li:hover a i {
 	font-size:30px;
 	margin-top:-10px;
-}
+} */
 #footer ul.social li a,
 #footer ul.quick-links li a{
 	color:#ffffff;
@@ -313,3 +266,34 @@ section .section-title {
 }
 }
 
+
+
+/* FOOTER  */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* FOOTER  */

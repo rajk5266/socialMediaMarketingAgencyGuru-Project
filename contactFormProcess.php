@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
 
     echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
-    <strong>' . htmlspecialchars($name) . '</strong> You should check in on some of those fields below.
+    <strong>' . htmlspecialchars($name) . '</strong> Sit back and relax till we reach you.
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -27,10 +27,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 echo '<script>
 setTimeout(function(){
     window.location.href = "index.php";
-}, 2000); // 2-second delay
+}, 3000); // 2-second delay
 </script>';
 
 ?>
+
+<!-- FOOTER  -->
+<?php include "footer.php"; ?>
+<!-- FOOTER  -->
     
 </body>
 </html>
