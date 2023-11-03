@@ -3,6 +3,30 @@
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.container{
+    width: 100%;
+   margin-top: 13px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(86, 86, 86);
+    
+}
+.title, h1{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    padding: 4px;
+    font-weight: 600;
+    /* background: linear-gradient(to right, rgb(84, 84, 247), rgb(254, 31, 31)); */
+    background: -webkit-linear-gradient(rgb(115, 115, 249), rgb(244, 61, 61));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .navbar{
     background-color: black;
 }
@@ -11,11 +35,12 @@ body{
     font-size: larger;
     /* padding-bottom: 12px;  */
 }
-.navbar  a:hover{
-  color: rgb(251, 222, 168);
+.navbar ul li{
+    padding: 6px;
 }
+
 .navbar img{
-    width: 180px;
+    width: 170px;
     margin-top: 18px;
     
 }
@@ -23,9 +48,23 @@ body{
 .navbar a{
     color: rgb(243, 42, 42);
     text-decoration: none;
+    font-size: 25px;
+    transition: all 0.4s;
+ 
 }
+.navbar  a:hover{
+    color: black;
+    transform: scale(1.05);
+  }
 .navbar .contact-us-btn{
   color: blue;
+  margin-right: 20px;
+  transition: all 0.5s;
+  
+}
+.navbar .contact-us-btn:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
 }
 
 /* HERO BANNER  */
@@ -42,9 +81,20 @@ body{
     display: flex;
     justify-content: center;
   }
+  .hero-banner-info{
+    margin-top: 20px;
+  }
 .hero-banner-div img {
     width: 100%;
-    
+    animation: zoomOut 2s ease-in-out;
+  }
+  @keyframes zoomOut {
+    0% {
+      transform: scale(0.5); /* Original size */
+    }
+    100% {
+      transform: scale(1); /* Zoomed out size */
+    }
   }
 /* HERO BANNER  */
 
@@ -57,7 +107,7 @@ body{
 .main-content{
     /* background-color: lightgray; */
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 .main-content-title{
@@ -73,6 +123,7 @@ body{
 .main-content-image {
     margin-bottom: 10px;
 }
+
 .main-content h1{
     /* text-align: right; */
     /* margin-right: 10px; */
@@ -102,6 +153,7 @@ body{
   
 .left-side, .right-side {
     display: flex;
+    margin-top: 20px;
   }
   
   .main-content-image {
@@ -109,9 +161,33 @@ body{
   }
 /* MAIN CONTENT  */
 
-.container{
-    width: 100%;
+/* WHY  */
+/* SECTION 4  */
+.section-4 img{
+    width: 50%;
 }
+.section-4 .row{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section-4-lists{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.section-4-lists .col{
+    text-align: center;
+}
+.section-4-lists p{
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 13, 0);
+}
+/* SECTION 4  */
+/* WHY  */
+
 
  /* CARD SECTIONS  */
 
@@ -127,6 +203,10 @@ body{
   .card:hover {
     transform: scale(1.1); 
     border: 1px solid gray;
+  }
+  .see-more-services{
+    text-align: center;
+    margin-top: 30px;
   }
 
 /* CONTACT FORM  */
@@ -190,110 +270,100 @@ body{
 
 /* CONTACT FORM  */
 
-/* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section {
-    padding: 60px 0;
+/* Footer */.footer{
+  background: #152F4F;
+  color:rgb(251, 121, 121);
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+.about-company a{
+    font-size: 30px;
+    margin: 10px;
+}
+.links li{
+    list-style: none;
 }
 
-section .section-title {
+.links a {
+    text-decoration: none;
+}
+
+/* FOOTER  */
+
+
+
+
+/* HORIZONTAL DIVIDER  */
+.h-divider {
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+    position: relative;
+  }
+  
+  .h-divider .shadow {
+    overflow: hidden;
+    height: 3px;
+  }
+  
+  .h-divider .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+  }
+  
+  .h-divider .text {
+    width: 100px;
+    height: 54px;
+    padding: 10px;
+    position: absolute;
+    bottom: 400%;
+    margin-bottom: -33px;
+    left: 50%;
+    margin-left: -60px;
+    border-radius: 100%;
+    box-shadow: 0 0 4px red;
+    background: white;
+  }
+  
+  .h-divider .text i {
+    position: absolute;
+    top: 3px;
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    border-radius: 100%;
+    border: 1px dashed red;
     text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-#footer {
-    background: #002e23 !important;
-}
-#footer h5{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
-}
-#footer a {
-    color: #ffffff;
-    text-decoration: none !important;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-#footer ul.social li{
-	padding: 3px 0;
-}
-#footer ul.social li a i {
-    margin-right: 5px;
-	font-size:25px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
-}
-/* #footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
-} */
-#footer ul.social li a,
-#footer ul.quick-links li a{
-	color:#ffffff;
-}
-#footer ul.social li a:hover{
-	color:#eeeeee;
-}
-#footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
-}
-#footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:5px;
-	font-weight:700;
-}
-#footer ul.quick-links li a i{
-	margin-right: 5px;
-}
-#footer ul.quick-links li:hover a i {
-    font-weight: 700;
-}
-
-@media (max-width:767px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-}
-}
-
-
-
-/* FOOTER  */
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-/* FOOTER  */
+    line-height: 50px;
+    font-style: normal;
+    color: blue;
+  }
+  
+/* HORIZONTAL DIVIDER  */
