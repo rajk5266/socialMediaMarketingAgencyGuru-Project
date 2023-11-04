@@ -226,7 +226,7 @@ p{
 /* CONTACT FORM  */
 
 .contact-form{
-    background: #fff;
+    background: linear-gradient(to right, rgb(170, 84, 251),  rgb(247, 99, 99));
     margin-top: 10%;
     margin-bottom: 5%;
     width: 70%;
