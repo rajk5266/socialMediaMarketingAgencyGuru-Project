@@ -16,7 +16,7 @@
   
     <div class="row title">
     <div class="col col-10">
-      <h1>Looking for a Best Social Media Marketing Agency in Mumbai for your brand or businesses.?</h1>
+      <h1 id="demo"></h1>
     </div>
   </div>
 
@@ -218,7 +218,7 @@
 
         <div class="row section-4-lists">
           <div class="col .col-12 col-sm-10 col-md-6 col-lg-4">
-            <div class="row">
+            <div class="row animate">
               <div class="col col-10">
                   <p>Building a great community </p>
               </div>
@@ -229,7 +229,7 @@
           </div>
 
           <div class="col .col-12 col-sm-10 col-md-6 col-lg-4">
-            <div class="row">
+            <div class="row animate">
               <div class="col col-10">
                    <p>Building Conversations </p>
               </div>
@@ -240,7 +240,7 @@
           </div>
 
           <div class="col .col-12 col-sm-10 col-md-6 col-lg-4">
-            <div class="row">
+            <div class="row animate">
                <div class="col col-10">
                    <p>Creating a brand identity </p>
                </div>
@@ -313,7 +313,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              src="images/healthcare.cms"
               alt=""
               class="card-img-top"
             />
@@ -325,7 +325,7 @@
                 quo tempore iusto dolore modi dolorum in pariatur. Incidunt
                 repellendus praesentium quae!
               </p>
-              <a href="" class="btn btn-outline-success btn-sm"
+              <a href="OurServicesPage.php" class="btn btn-outline-success btn-sm"
                 >Read More</a
               >
               <!-- <a href="" class="btn btn-outline-danger btn-sm"
@@ -337,7 +337,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
+              src="images/institute.jpg"
               alt=""
               class="card-img-top"
             />
@@ -349,7 +349,7 @@
                 quo tempore iusto dolore modi dolorum in pariatur. Incidunt
                 repellendus praesentium quae!
               </p>
-              <a href="" class="btn btn-outline-success btn-sm"
+              <a href="OurServicesPage.php" class="btn btn-outline-success btn-sm"
                 >Read More</a
               >
               <!-- <a href="" class="btn btn-outline-danger btn-sm"
@@ -361,7 +361,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              src="images/pharma.avif"
               alt=""
               class="card-img-top"
             />
@@ -373,7 +373,7 @@
                 quo tempore iusto dolore modi dolorum in pariatur. Incidunt
                 repellendus praesentium quae!
               </p>
-              <a href="" class="btn btn-outline-success btn-sm"
+              <a href="OurServicesPage.php" class="btn btn-outline-success btn-sm"
                 >Read More</a
               >
               <!-- <a href="" class="btn btn-outline-danger btn-sm"

@@ -29,12 +29,12 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-              alt=""
+              src="images/healthcare.cms"
+              alt="health care social media digital marketing"
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title">HealthCare & Fitness - Social Media Marketing</h5>
+              <h5 class="card-title">HealthCare - Social Media Marketing</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
                 eum similique repellat a laborum, rerum voluptates ipsam eos
@@ -50,11 +50,56 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
-              alt=""
+              src="images/pharma.avif"
+              alt="pharmaceutical companies social media digital marketing"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pharma Companies - Social Media Marketing</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                eum similique repellat a laborum, rerum voluptates ipsam eos
+                quo tempore iusto dolore modi dolorum in pariatur. Incidunt
+                repellendus praesentium quae!
+              </p>
+              <!-- <a href="" class="btn btn-outline-success btn-sm"
+                >Read More</a
+              > -->
+              <!-- <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="far fa-heart"></i
+              ></a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 animate">
+          <div class="card">
+            <img
+              src="images/fitness.avif"
+              alt="fitness and health social media digital marketing"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fitness Club - Social Media Marketing</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                eum similique repellat a laborum, rerum voluptates ipsam eos
+                quo tempore iusto dolore modi dolorum in pariatur. Incidunt
+                repellendus praesentium quae!
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4 animate">
+          <div class="card">
+            <img
+              src="images/real-estate.jpg"
+              alt="real estate social media digital marketing"
               class="card-img-top"
             />
             <div class="card-body">
@@ -72,8 +117,8 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-              alt=""
+              src="images/institute.jpg"
+              alt="institute and academic social media marketing"
               class="card-img-top"
             />
             <div class="card-body">
@@ -92,8 +137,8 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-              alt=""
+              src="images/tours-and-travels.jpg"
+              alt="tours and travels social media marketing"
               class="card-img-top"
             />
             <div class="card-body">
@@ -112,8 +157,8 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-              alt=""
+              src="images/engineering-products.jpg"
+              alt="electrical and mechanical products social media marketing"
               class="card-img-top"
             />
             <div class="card-body">
@@ -132,8 +177,8 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-              alt=""
+              src="images/banks.jpg"
+              alt="banks social media digital marketing"
               class="card-img-top"
             />
             <div class="card-body">

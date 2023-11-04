@@ -27,6 +27,10 @@ p{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.title{
+ 
+}
+
 .navbar{
     background-color: black;
 }
@@ -86,14 +90,14 @@ p{
   }
 .hero-banner-div img {
     width: 100%;
-    animation: zoomOut 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
   }
-  @keyframes zoomOut {
+  @keyframes fadeIn {
     0% {
-      transform: scale(0.5); /* Original size */
+      opacity: 0;
     }
     100% {
-      transform: scale(1); /* Zoomed out size */
+      opacity: 1;
     }
   }
 /* HERO BANNER  */
@@ -164,7 +168,7 @@ p{
 /* WHY  */
 /* SECTION 4  */
 .section-4 img{
-    width: 50%;
+    /* width: 50%; */
 }
 .section-4 .row{
     display: flex;
@@ -176,6 +180,9 @@ p{
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+.section-4-lists img{
+  width: 50%;
 }
 .section-4-lists .col{
     text-align: center;
@@ -196,13 +203,20 @@ p{
     text-decoration:underline;
     margin-top: 20px;
  }
+ .gallery-container h5{
+  background: -webkit-linear-gradient(rgb(115, 115, 249), rgb(244, 61, 61));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+ }
  .card {
     transition: transform 0.4s;
   }
 
   .card:hover {
-    transform: scale(1.1); 
-    border: 1px solid gray;
+    transform: scale(1.05); 
+    /* border: 1px solid gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   .see-more-services{
     text-align: center;
