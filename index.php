@@ -69,7 +69,7 @@
 
         <div class="row left-side">
             <div class="col .col-12 col-sm-12 col-md-5 col-lg-4 main-content-image animate d-none d-sm-block">
-                <img src="images/main-content/Social-Media-Marketing.jpg" alt="Image Description" class="img-fluid">
+                <img src="images/main-content/social-media-marketing-strategy.jpg" alt="Image Description" class="img-fluid">
             </div>
             <div class="col .col-12 col-sm-12 col-md-5 col-lg-8 main-content-description animate">
                 <h1>Social Media Marketing Strategy</h1>
@@ -86,12 +86,12 @@
               <p>To keep up with the pace of social media content and ensure our client partners get the benefit of costs, we have created our own reels video studio in-house as well.</p>
           </div>
           <div class="col .col-12 col-sm-12 col-md-5 col-lg-4 main-content-image animate d-none d-sm-block">
-            <img src="images/main-content/Social-Media-Marketing.jpg" alt="Image Description" class="img-fluid">
+            <img src="images/main-content/content-development-for-social-media.jpg" alt="Image Description" class="img-fluid">
         </div>
 
         <div class="row left-side">
           <div class="col .col-12 col-sm-12 col-md-5 col-lg-4 main-content-image animate d-none d-sm-block">
-            <img src="images/main-content/Social-Media-Marketing.jpg" alt="Image Description" class="img-fluid">
+            <img src="images/main-content/orm.jpg" alt="Image Description" class="img-fluid">
           </div>
            <div class="col .col-12 col-sm-12 col-md-5 col-lg-8 main-content-description animate">
             <h1>ORM for Social Media Marketing</h1>
@@ -108,7 +108,7 @@
              <!-- <p> Exlplore below the services we offer .</p> -->
            </div>
           <div class="col .col-12 col-sm-12 col-md-5 col-lg-4 main-content-image animate d-none d-sm-block">
-             <img src="images/main-content/Social-Media-Marketing.jpg" alt="Image Description" class="img-fluid">
+             <img src="images/main-content/reporting-and-analytics-social-media.jpg" alt="Image Description" class="img-fluid">
           </div>
         </div>
     </div>  
@@ -149,12 +149,12 @@
 
   <!-- SECTION 2  -->
   <div class="container">
-    <div class="row">
+    <div class="row section-2-row">
       <div class="col col-12">
         <h1>Why Choose Social Media Marketing Agency Guru -  As Your Social Media Marketing Agency? </h1>
       </div>
       <div class="img">
-        <img src="images/download.jpeg" alt="">
+        <img src="images/why-choose-social-media.jpg" alt="" style="width: 100%;">
       </div>
       <div class="col col-12">
         <p>There are so many social media marketing agencies in Mumbai. If you were to hire one, what would you really use to judge them? The obvious answers include - past work, the scope of work & pricing. As a social media agency, we feel there's a lot more to this. One key factor is processing. That’s because social media marketing is a super collaborative effort. It involves talent from multiple verticals like - social media executives, copywriters, strategists, graphic designers, motion graphic designers, creative directors, and more to all work together in tandem with a crystal-clear clarity on what we want to try and achieve for the brand in say 6 months or 12 months. Apart from that, collaboration leads to dependencies, which leads to delays and that leads to compromise in the quality and thus last-minute iterations and painful last-minute deliveries to clients. </p>
@@ -313,7 +313,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/healthcare.cms"
+              src="images/services/healthcare.cms"
               alt=""
               class="card-img-top"
             />
@@ -337,7 +337,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/institute.jpg"
+              src="images/services/institute.jpg"
               alt=""
               class="card-img-top"
             />
@@ -361,7 +361,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/pharma.avif"
+              src="images/services/pharma.avif"
               alt=""
               class="card-img-top"
             />

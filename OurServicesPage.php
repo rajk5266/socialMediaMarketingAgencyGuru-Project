@@ -29,7 +29,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/healthcare.cms"
+              src="images/services/healthcare.cms"
               alt="health care social media digital marketing"
               class="card-img-top"
             />
@@ -54,7 +54,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/pharma.avif"
+              src="images/services/pharma.avif"
               alt="pharmaceutical companies social media digital marketing"
               class="card-img-top"
             />
@@ -79,7 +79,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/fitness.avif"
+              src="images/services/fitness.avif"
               alt="fitness and health social media digital marketing"
               class="card-img-top"
             />
@@ -98,7 +98,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/real-estate.jpg"
+              src="images/services/real-estate.jpg"
               alt="real estate social media digital marketing"
               class="card-img-top"
             />
@@ -117,7 +117,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/institute.jpg"
+              src="images/services/institute.jpg"
               alt="institute and academic social media marketing"
               class="card-img-top"
             />
@@ -137,7 +137,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/tours-and-travels.jpg"
+              src="images/services/tours-and-travels.jpg"
               alt="tours and travels social media marketing"
               class="card-img-top"
             />
@@ -157,7 +157,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/engineering-products.jpg"
+              src="images/services/engineering-products.jpg"
               alt="electrical and mechanical products social media marketing"
               class="card-img-top"
             />
@@ -177,7 +177,7 @@
         <div class="col-lg-4 mb-4 animate">
           <div class="card">
             <img
-              src="images/banks.jpg"
+              src="images/services/banks.jpg"
               alt="banks social media digital marketing"
               class="card-img-top"
             />

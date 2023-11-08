@@ -57,18 +57,18 @@ p{
  
 }
 .navbar  a:hover{
-    color: black;
-    transform: scale(1.05);
+    color: rgb(173, 4, 4);
+    /* transform: scale(1.05); */
   }
 .navbar .contact-us-btn{
   color: blue;
   margin-right: 20px;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   
 }
 .navbar .contact-us-btn:hover{
-    transform: scale(1.1);
-    text-decoration: underline;
+    /* transform: scale(1.1); */
+    /* text-decoration: underline; */
 }
 
 /* HERO BANNER  */
@@ -158,6 +158,10 @@ p{
 .left-side, .right-side {
     display: flex;
     margin-top: 20px;
+    
+  }
+  .left-side .col, .right-side .col{
+    margin: auto;
   }
   
   .main-content-image {
@@ -166,6 +170,16 @@ p{
 /* MAIN CONTENT  */
 
 /* WHY  */
+
+
+
+/* SECTION 2  */
+.section-2-row .img{
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+/* SECTION 2  */
 /* SECTION 4  */
 .section-4 img{
     /* width: 50%; */
