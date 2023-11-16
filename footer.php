@@ -22,9 +22,15 @@
     </div>
     <div class="col-lg-4 col-xs-12 location">
       <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-      <p>Navi Mumbai , Maharashtra</p>
-      <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-      <p><i class="fa fa-envelope-o mr-3"></i>socialmediamarketingagencyguru@gmail.com</p>
+      <div class="mt-3">
+        <a href class="mb-0"><i class="fa fa-map-marker mr-3"></i>  119,Arenja Arcade, Sec-17, vashi-400703</a>
+      </div>
+      <div class="mt-3">
+        <a href="tel:+918369459586" class="mb-0"><i class="fa fa-phone mr-3"></i>  (91) 8369459586</a>
+      </div>
+      <div class="mt-3">
+        <a href="mailto:digitalmarketingagency919@gmail.com" class="mb-0"><i class="fa fa-envelope-o mr-3"></i>  digitalmarketingagency919@gmail.com</a>
+      </div>
     </div>
   </div>
   <div class="row mt-5">
